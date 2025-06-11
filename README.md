@@ -1,4 +1,4 @@
-# Análisis Temporal de Causas de Muerte: China vs Estados Unidos (1990-2019)
+# Análisis de Causas de Muerte: China vs Estados Unidos (1990-2019)
 
 ## Descripción
 Este proyecto tiene como objetivo analizar la evolución temporal de las principales causas de muerte a nivel global entre 1990 y 2019, con un enfoque particular en Estados Unidos y China como representantes de Occidente y Oriente, respectivamente.
@@ -10,24 +10,21 @@ Una parte destacada del proyecto fue el desarrollo de un script en Python que pe
 ## Dataset
 Se trabajó con un conjunto de datos global que contiene información sobre causas de muerte desagregadas por país y año. El dataset incluye columnas como: país, año, causa de muerte y número de muertes. Fue necesario transformar la estructura original para adaptarla a un formato largo (long format) que facilite el análisis temporal.
 
-📌 **Lugar sugerido para imagen:**  
-*Incluye una imagen del dataset original vs el dataset transformado (ej. tabla antes y después del pivoteo). Esto ayudará a visualizar el trabajo de limpieza de datos.*
-
 ## Metodología 
 1. **Análisis exploratorio de datos (EDA)**  
-   En esta etapa se exploró en profundidad el dataset para entender las variables disponibles, su distribución, y patrones generales. Se definieron las preguntas clave en torno a las causas de muerte más frecuentes y su evolución temporal por país. Esta fase fue crucial para comprender las transformaciones necesarias.
-
-   📌 **Lugar sugerido para imagen:**  
-   *Gráficos iniciales del EDA: distribución general de muertes por país y año, top 5 causas de muerte globales.*
+   En esta etapa se exploró en profundidad el dataset para entender sus características y patrones generales.. Esta fase fue crucial para comprender las transformaciones necesarias.
 
 2. **Limpieza y transformación de datos**  
-   Se realizó una limpieza exhaustiva de los datos, que incluyó el manejo de valores nulos y la reorganización de la tabla a un formato largo con el objetivo de facilitar el análisis temporal y las visualizaciones. También se agruparon los datos por país, año y causa para una visualización estructurada.
+   Se realizó una organización exhaustiva de los datos, que incluyó de la tabla a un formato largo con el objetivo de facilitar el análisis temporal y las visualizaciones., además de limitar el análisis a dos países También se agruparon los datos por país, año y causa para una visualización estructurada.
 
 3. **Generación automatizada de visualizaciones**  
    Se desarrolló un script en Python que genera gráficos iterativos de forma automática, permitiendo una comparación directa entre causas y países. Esto se hizo con el objetivo de automatizar el análisis visual sin intervención manual constante.
 
-   📌 **Lugar sugerido para imagen:**  
-   *Ejemplo de visualización generada automáticamente (por país y por causa). Pueden ser gráficos de líneas o áreas.*
+La siguiente imagen representan la conclusión del trabajo hecho ya que podemos visualizar la variación de muertes en función del tiempo en el intervalo que estamos estudiando y que los datos lo permiten. Análogamente a esta imagen se hicieron las correspondientes iteraciones para obtener la información en forma de visualización automatizada
+
+![image](https://github.com/user-attachments/assets/99d31d65-f7b6-47e9-9054-7d6ed33a6cb6)
+
+
 
 4. **Análisis comparativo y extracción de insights**  
    Se compararon tendencias de mortalidad en China y Estados Unidos, observando diferencias y similitudes relevantes. Se identificaron causas dominantes por país y se interpretaron las implicaciones socioeconómicas o sanitarias de dichas tendencias.
@@ -37,8 +34,6 @@ Se trabajó con un conjunto de datos global que contiene información sobre caus
 - Se observaron diferencias notables en las causas más frecuentes de muerte entre China y Estados Unidos.
 - El proceso de automatización de visualizaciones permitió acelerar el análisis exploratorio comparativo entre ambos países.
 
-📌 **Lugar sugerido para imagen:**  
-*Coloca dos o tres visualizaciones destacadas que mejor ilustren las diferencias entre China y EUA (por ejemplo, enfermedades cardiovasculares vs accidentes de tráfico).*
 
 ## Lecciones aprendidas
 - Cómo reorganizar un dataset según el objetivo analítico.
